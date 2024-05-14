@@ -1,17 +1,19 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Lucida Console', monospace;
     margin: 0;
     padding: 0;
+    background-color: #E5F3FD; /* Change the background color as needed */
 }
 
 .container {
     width: 80%;
     margin: 0 auto;
+    background-color: #E5F3FD; /* Change the background color as needed */
 }
  
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #E5F3FD;
+    color: #000;
     padding: 20px 0;
     text-align: center;
 }
@@ -31,8 +33,21 @@ section {
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #E5F3FD;
+    color: #000;
     text-align: center;
+    position: fixed; /* Fixed positioning */
+    bottom: 0; /* Align at the bottom of the viewport */
+    width: 100%; /* Full width */
     padding: 20px 0;
+}
+
+.contact {
+    margin: 0; /* Reset margin */
+    background-color: #E5F3FD; /* Change the background color as needed */
+}
+
+.portfolio-section {
+    background-color: #E5F3FD; /* Change the background color as needed */
+    padding: 50px 0; /* Add padding for better spacing */
 }
